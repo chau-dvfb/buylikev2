@@ -20,7 +20,7 @@ function App() {
              
            </Route>
            <Route path='admin'>
-               <Route index element={<AdminPage />} />
+               <Route index element={<AdminPage/>} />
                <Route path='addcode' element={<AddCode />} />
                <Route path='editcode/:id' element={<EditCode />} />
                <Route path='list' element={<ListToken />} />
