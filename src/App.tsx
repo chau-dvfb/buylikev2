@@ -19,7 +19,7 @@ function App() {
            <Route index element={<HomePage />}/>
              
            </Route>
-           <Route path='admin' element={<p></p>}>
+           <Route path='admin'>
                <Route index element={<AdminPage />} />
                <Route path='addcode' element={<AddCode />} />
                <Route path='editcode/:id' element={<EditCode />} />
