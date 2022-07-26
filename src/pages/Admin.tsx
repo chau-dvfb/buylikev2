@@ -12,9 +12,9 @@ const AdminPage = (props: Props) => {
                try {
                 const {data} = await axios.get("https://bufflikea.herokuapp.com/codes");
                 setCode(data);
-                console.log(data); 
+              
                } catch (error) {
-                  console.log(error);
+               
                   
                }
             }
