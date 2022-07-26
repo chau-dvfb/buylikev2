@@ -22,16 +22,16 @@ const PrivateRouter = (props: PrivateRouterProps) => {
     },[])
     const keys = isAuthenticate()
     
-    const check = key.filter(item => item.name == keys.name)
+    
 
     
     
     
     
-    if(check) {
+    if(keys) {
         return props.children
     }else {
-        return <Navigate to="/" replace/>
+        return <Navigate to="/key"/>
        
     }
     
