@@ -10,7 +10,7 @@ const PrivateRouter = (props: PrivateRouterProps) => {
     if(keys) {
         return props.children
     }else {
-        return <Navigate to="/" />
+        return <Navigate to="/key" />
     }
  
 }
