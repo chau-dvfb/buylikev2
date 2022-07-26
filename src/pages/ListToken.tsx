@@ -15,7 +15,7 @@ const ListToken = (props: Props) => {
     }, [])
   return (
     <div>
-      <Header />
+      
          <table className="table">
     <thead>
       <tr>

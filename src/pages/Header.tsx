@@ -26,6 +26,16 @@ const Header = (props: Props) => {
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Key
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+            <li><NavLink className="dropdown-item" to="/admin/addkey">Thêm key</NavLink></li>
+            <li><NavLink className="dropdown-item" to={`/admin/listkey`}>Danh sách keys</NavLink></li>
+          </ul>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Token
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

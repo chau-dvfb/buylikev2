@@ -30,7 +30,7 @@ const AdminPage = (props: Props) => {
         }
   return (
     <div>
-          <Header />
+          
     <div className="container">
   <h2>Danh sách gói</h2>
   <NavLink className="btn btn-info" to="/admin/addcode">Thêm Code</NavLink>

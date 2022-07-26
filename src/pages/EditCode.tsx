@@ -30,7 +30,7 @@ const EditCode = (props: Props) => {
     }
   return (
     <div>
-        <Header />
+        
         <form onSubmit={handleSubmit(onAdd)}>
         <div>
             <h2>Edit Code</h2>
