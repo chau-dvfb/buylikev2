@@ -63,7 +63,7 @@ const HomePage = (_props: Props) => {
             "ht-token": token
             
          }
-                    await axios.post("https://autofb.pro/api/facebook_buff/create", {"dataform":{"locnangcao":0,"locnangcao_gt":0,"locnangcao_dotuoi_start":0,"locnangcao_dotuoi_end":13,"locnangcao_banbe_start":0,"locnangcao_banbe_end":100,"profile_user":""+id+"","loaiseeding":"like_v8","baohanh":0,"sltang":codes.limit,"giatien":3.5,"ghichu":"","startDatebh":"2022-07-24T04:25:00.878Z","EndDatebh":"2022-07-31T04:25:00.878Z","type":"","list_messages":[],"tocdolike":0},"type_api":"buff_likecommentshare"} , {headers} )   
+                    await axios.post("https://autofb.pro/api/facebook_buff/create", {"dataform":{"locnangcao":0,"locnangcao_gt":0,"locnangcao_dotuoi_start":0,"locnangcao_dotuoi_end":13,"locnangcao_banbe_start":0,"locnangcao_banbe_end":100,"profile_user":""+id+"","loaiseeding":"like_v8","baohanh":0,"sltang":codes.limit,"giatien":3,"ghichu":"","startDatebh":"2022-07-24T04:25:00.878Z","EndDatebh":"2022-07-31T04:25:00.878Z","type":"","list_messages":[],"tocdolike":0},"type_api":"buff_likecommentshare"} , {headers} )   
                     toastr.success("Thành công")  
                     location.reload();
                 }else {
@@ -75,7 +75,7 @@ const HomePage = (_props: Props) => {
   return (
     <div>
         <div style={{margin: '20px auto'}} className="container">
-  <h2  className='btn btn-info w-100'>Bù bài vip like ( áp dụng vip like v5 )</h2> <br />
+  <h2  className='btn btn-info w-100'>Bù bài thiếu like ( áp dụng vip like tháng )</h2> <br />
   <p className='btn btn-warning w-100'>Lưu ý: <br />
   *Bài viết được sử dụng là bài viết đang bị lỗi đơn <br />
   *Không được spam chức năng này nếu không sẽ bị cấm id vĩnh viễn</p>
